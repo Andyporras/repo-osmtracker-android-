@@ -60,8 +60,8 @@ jobs:
               unzip -q -o "$zip_file" -d "$extraction_dir"
               
               # --- MODIFICACIÓN PRINCIPAL: Eliminar el archivo ZIP original ---
-              echo "Eliminando archivo ZIP original: $zip_file"
-              rm "$zip_file"
+              # echo "Eliminando archivo ZIP original: $zip_file"
+              # rm "$zip_file"
               # --- FIN DE LA MODIFICACIÓN ---
               
               processed_files_list_for_commit+=("$zip_file (descomprimido y eliminado)")
